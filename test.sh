@@ -15,7 +15,7 @@ then
    PACKAGE="httpd wget unzip"
    SVC="httpd"
 
-   echo "Running Setup on CentOS"
+   echo "Running Setup on The  CentOS"
    # Installing Dependencies
    echo "########################################"
    echo "Installing packages."
@@ -113,4 +113,5 @@ else
    sudo systemctl status $SVC
    ls /var/www/html/
 fi 
+
 
